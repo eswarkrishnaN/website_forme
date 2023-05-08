@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+.second {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  margin-left: 18rem;
+  display: flex;
+}
+.second .top_left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  margin-left: 80px;
+  width: 15vw;
+}
+.second .top_left p {
+  font-family: "Barlow", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: larger;
+  color: rgb(255, 213, 159);
+}
+.second .top_left h2 {
+  font-weight: 1000;
+  font-size: x-large;
+  color: #231848;
+}
+.second .top_left button {
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: #231848;
+  outline: none;
+  color: white;
+  border: none;
+  font-weight: normal;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+}
+.second .top_left button:focus {
+  outline: none;
+  border: none;
+}
+.second .top_left button:hover {
+  background-color: transparent;
+  color: black;
+  border: solid 1px #231848;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 200;
+}
+.second .top_left button:active {
+  outline: none;
+  border: none;
+}
+.second .top_right {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  margin-left: 200px;
+  font-family: "Barlow", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.second .top_right .main_name {
+  font-weight: bold;
+  margin-bottom: 5rem;
+  word-spacing: 2px;
+}
+.second .top_right .main_name span {
+  color: rgb(245, 199, 112);
+  font-weight: 500;
+}
+.second .top_right .second_name {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  word-spacing: 2px;
+}
+.second .top_right .age1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  gap: 10rem;
+  text-align: center;
+}
+.second .top_right .age1 p {
+  text-decoration: underline;
+}
+.second .top_right .age1 span {
+  font-weight: 500;
+}
+.second .top_right .age1 span:hover {
+  color: rgb(245, 199, 112);
+}
+.second .top_right .age1 span a {
+  text-decoration: none;
+  color: black;
+}
+.second .top_right .age1 span a:hover {
+  color: rgb(245, 199, 112);
+}
+.second .top_right .age {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.second .bottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  gap: 2rem;
+}
+.second .bottom .first_box {
+  border: 10px solid 0;
+  height: 150px;
+  width: 300px;
+  border-radius: 5%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #bcf5db;
+  color: black;
+  line-height: 2px;
+  transition: all 2s ease;
+}
+.second .bottom .first_box p {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.second .bottom .first_box span {
+  font-size: 15px;
+  font-weight: 400;
+}
+.second .bottom .first_box:hover {
+  scale: 1.1;
+}
+.second .bottom .second_box {
+  border: 10px solid 0;
+  height: 150px;
+  width: 300px;
+  border-radius: 5%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #d6f0cc;
+  color: black;
+  line-height: 2px;
+  transition: all 2s ease;
+}
+.second .bottom .second_box p {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.second .bottom .second_box span {
+  font-size: 15px;
+  font-weight: 400;
+}
+.second .bottom .second_box:hover {
+  scale: 1.1;
+}
+.second .bottom .third_box {
+  border: 10px solid 0;
+  height: 150px;
+  width: 300px;
+  border-radius: 5%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6e4cc;
+  color: black;
+  line-height: 2px;
+  transition: all 2s ease;
+}
+.second .bottom .third_box p {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.second .bottom .third_box span {
+  font-size: 15px;
+  font-weight: 400;
+}
+.second .bottom .third_box:hover {
+  scale: 1.1;
+}/*# sourceMappingURL=second.css.map */

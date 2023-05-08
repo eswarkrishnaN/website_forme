@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+.Third {
+  height: 100vh;
+  background-color: azure;
+  margin-left: 18rem;
+  align-items: center;
+  justify-content: center;
+}
+.Third .heading {
+  align-items: center;
+  margin-left: 30px;
+}
+.Third .heading p {
+  margin-top: 20px;
+  padding-top: 50px;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(69, 62, 97);
+}
+.Third .heading h1 {
+  margin-top: 10px;
+  text-align: left;
+  color: rgb(69, 62, 97);
+}
+.Third .container_main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.Third .container_main .container {
+  box-shadow: 0 5px 10px rgb(197, 194, 191);
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  padding: 20px 30px;
+  transition: transform 0.2s ease-in-out;
+}
+.Third .container_main .container .year {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(247, 204, 123);
+  font-family: "Carlito", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  text-align: left;
+}
+.Third .container_main .container .year span {
+  margin-left: 230px;
+  color: rgb(69, 62, 97);
+}
+.Third .container_main .container .details h3 {
+  align-items: left;
+  text-align: left;
+  color: rgb(69, 62, 97);
+}
+.Third .container_main .container .details .explation {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  word-spacing: 3px;
+  color: rgb(69, 62, 97);
+}
+.Third .container_main .container:hover {
+  transform: translate(3px, 3px);
+}/*# sourceMappingURL=Third.css.map */

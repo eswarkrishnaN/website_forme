@@ -1,0 +1,216 @@
+
+
+// .first_section{
+//     height: 100vh;
+//     display: flex;
+//    position: relative;
+//     flex-direction: row;
+//     background-color: rgb(224, 248, 248);
+//     color: #053257;
+//     margin-left: 18rem;
+
+//     .hi{
+//         left: 15%;
+//       position: relative;
+//         top: 18%;
+//         font-size: 50px;
+//         span{
+//             color: rgb(140, 159, 252);
+//         }
+//     }
+//     .hello{
+//         left: 19%;
+//         position: absolute;
+//         top: 25%;
+//         font-size: 50px;
+//     }
+//     .hidden{
+//         position: absolute  ;
+//         top: 30%;
+//         font-size: 50px;
+//         left: 33%;
+//         height: 70px;
+//         display: flex;
+//         box-sizing: content-box;
+//         border-radius: 5px;
+//         flex-direction: column;
+//         .hid{
+//             overflow: hidden;
+//         span{
+//             display: block;
+//             height: 100%;
+//             font-weight: bold;
+//             animation: spin 8s infinite;
+//         }
+//      }
+
+//         @keyframes spin {
+//             10%{
+//                 transform: translateY(-112%);
+//             }
+//             25%{
+//                 transform: translateY(-100%);
+//             }
+//             35%{
+//                 transform: translateY(-212%);
+//             }
+//             50%{
+//                 transform: translateY(-200%);
+//             }
+//             60%{
+//                 transform: translateY(-212);
+//             }
+//             75%{
+//                 transform: translateY(-300%);
+//             }
+//             85%{
+//                 transform: translateY(-312%);
+//             }
+//             95%{
+//                 transform: translateY(-412%);
+//             }
+//             100%{
+//                 transform: translateY(-400%);
+//             }
+            
+//         }
+//     
+// }   
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+$primarycolor:#231848;
+.first_section{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(224, 248, 248);
+    margin-left: 18rem;
+   
+    
+    .postion{
+        height: 80vh;
+        width: 80vw;
+        display: flex;
+        margin: 100px auto;
+        justify-content: space-around;
+        line-height: 1px;
+        .left{
+            margin-top: 20px;
+            justify-content: center;
+            .main_name{
+            .hi{
+                font-size: 50px;
+                  span{color: rgb(140, 159, 252); }
+            }
+        }
+        .wrapper{
+            box-sizing: content-box;
+            display: flex;
+        
+            h1{
+                font-weight: bold;
+                 font-size: 50px;
+                 color: $primarycolor;
+
+                 &:hover{
+                    color: cornflowerblue;
+                 }
+                
+            }        
+        }
+        .name_india{
+            font-size: 30px;
+         color: $primarycolor; 
+         padding-bottom: 10px;
+         h1{
+            &:hover{
+                color: cornflowerblue;
+            }
+         }    
+          }
+          .pargaaph{
+
+
+            p{
+                color: #808083;
+                line-height: 10px;
+                font-weight: normal;
+                font-family: 'Barlow', sans-serif;
+                font-family: 'Lato', sans-serif;
+            }
+          }
+          .btn2{
+            margin-top: 20px;
+            padding: 20px 50px;
+            background-color: #231848;
+            color: aliceblue;
+            margin-left: 10px;
+            border-radius: 10px;
+            font-weight: bolder;
+            outline: none;
+            border: solid #231848 2px;
+            cursor: pointer;
+            &:hover{
+                background: transparent;
+                border-color: #231848;
+                color: black;
+            }
+            &:focus{
+                outline: none;
+            }
+            &:active{
+                outline: none;
+            }
+                
+          }
+
+          .btn{
+            margin-top: 20px;
+            padding: 20px 50px;
+            background: transparent;
+            border-color: #231848;
+            font-weight: bolder;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover{
+                background-color: #231848;
+                color: aliceblue;
+            }
+           
+          }
+           .contat{
+           display: flex;
+           flex-direction: column;
+            .Vertical_line{
+                margin-top: 120px;
+                border-left: 6px rgb(245, 115, 10) solid;
+                left: 150px;
+                height: 150px;
+                
+                p{
+                    padding: 10px;
+                    font-family: 'Barlow', sans-serif;
+                    font-family: 'Lato', sans-serif;
+                    color: #19191b;
+                    font-weight: bold;
+                    font-size: 20px;
+                    transition: color 0.2s ease;
+                    &:hover{
+                        color:rgb(245, 115, 10) ;
+                    }
+                }
+            }
+           }
+            
+        }
+
+        .right{
+            
+            img{
+                height: auto;
+                width: 381px;
+            }
+        }
+        
+    }
+
+
+}

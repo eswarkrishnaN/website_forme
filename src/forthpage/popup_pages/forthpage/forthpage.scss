@@ -1,0 +1,46 @@
+
+.popup{
+
+    width: 100vw;
+   height: 100vh;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;        
+   position: fixed;
+   background-color: rgba(0,0,0, .7);
+   z-index: 1000;
+
+   .pop{
+
+       position: fixed;
+       top:50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       background-color: white;
+       padding: 50px;
+       z-index: 1000;
+       
+       img{
+           height: 300px;
+           width: 500px;
+       }
+       p{
+           font-size: 20px;
+       }
+       button{
+           align-items: center;
+           justify-content: center;
+           padding: 10px;
+           text-align: center;
+           font-size: 20px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           background-color: blanchedalmond;
+           border: 2px solid burlywood;
+           border-radius: 10px;
+
+       }
+   }
+
+}
+

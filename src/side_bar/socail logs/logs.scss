@@ -1,0 +1,27 @@
+
+.social_logs{
+    .social-icons-list{
+        text-align: center;
+        flex-direction: row;
+        display: flex;
+        margin-top: 100px;
+
+    li{
+        padding: 20px;
+        text-align: center;
+        list-style: none;
+        font-size: 20px;
+        
+      a{
+        color: black;
+        &:hover{
+            color: rgb(34, 34, 228);
+        }
+      }
+    }
+}
+p{
+    text-align: center;
+   
+}
+}
