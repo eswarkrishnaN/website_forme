@@ -1,6 +1,6 @@
 import "./head.css";
 import image from "./image.png"
-
+import React from "react";
 const Main = () =>{
 
     return(
@@ -8,7 +8,7 @@ const Main = () =>{
             <div className="postion">
             <div className="left">
             <div className="main_name">
-            <h1 className="hi">Hi, I'm <span>Eswar Krishna!</span>
+            <h1 className="hi">Hi, I m <span>Eswar Krishna!</span>
             </h1>
             </div>
             <div className="wrapper">
@@ -21,7 +21,7 @@ const Main = () =>{
                 <p>Seeking a challenging role as a software developer where I can utilize my 
                     </p>
                     <p>technical skills and knowledge to develop innovative software solutions.</p>
-                    <button className="btn"> Let's talk</button>
+                    <button className="btn"> Let s talk</button>
                     <button className="btn2">Contact me</button>
             </div>
             <div className="contat">

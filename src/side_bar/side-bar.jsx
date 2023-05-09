@@ -1,6 +1,6 @@
 import "./side-bar.css";
 import Logs from "./socail logs/logs"
-
+import React from "react";
 
 
  const Navbar  = () =>{

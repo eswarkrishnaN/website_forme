@@ -1,7 +1,7 @@
 import "./logs.css"
 import {FiFacebook} from "react-icons/fi"
 import {AiOutlineInstagram ,AiOutlineLinkedin ,AiOutlineGithub} from "react-icons/ai"
-
+import React from "react";
 const Logs =  () =>{
 
 

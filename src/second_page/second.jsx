@@ -1,5 +1,5 @@
 import "./second.css"
-
+import React from "react";
 
 const Second = () =>{
 
@@ -13,7 +13,7 @@ const Second = () =>{
             </div>
             <div className="top_right">
                 <p className="main_name">Hello there! My name is <span>Eswar Krishna </span>
-                    .  and I'm very passionate and dedicated to my work</p>
+                    .  and I m very passionate and dedicated to my work</p>
                 <p className="second_name">
                     With 20 years experience as a 
                     professional a graphic designer,

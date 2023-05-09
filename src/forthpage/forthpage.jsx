@@ -7,6 +7,9 @@ import Third from  "./popup_pages/thirdpage/thirdpage"
 import Forth from "./popup_pages/forthpage/forthpage";
 import Fifth from "./popup_pages/fithpage/fifthpage";
 import Sixth from "./popup_pages/sixthpage/sixthpage";
+import React from "react";
+
+
 
 
 const Fothpage = () =>{

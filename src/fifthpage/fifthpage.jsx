@@ -1,6 +1,7 @@
 import "./fifthpage.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import React from "react";
 
 
 const  Fifth = () =>{
@@ -34,31 +35,31 @@ const  Fifth = () =>{
             </div>
             <Carousel className="scrool" responsive={responsive}>
             <div className="wrapper">
-                <img class name="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
+                <img className="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
                 </img>
                 <p className="smallname"> some</p>
                 <h4 className="bigname"><a href="#" alt="">soem wer</a></h4>
             </div>
             <div className="wrapper">
-                <img class name="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
+                <img className="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
                 </img>
                 <p className="smallname"> some</p>
                 <h4 className="bigname"><a href="#" alt="">soem wer</a></h4>
             </div>
             <div className="wrapper">
-                <img class name="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
+                <img className="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
                 </img>
                 <p className="smallname"> some</p>
                 <h4 className="bigname"><a href="#" alt="">soem wer</a></h4>
             </div>
             <div className="wrapper">
-                <img class name="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
+                <img className="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
                 </img>
                 <p className="smallname"> some</p>
                 <h4 className="bigname"><a href="#" alt="">soem wer</a></h4>
             </div>
             <div className="wrapper">
-                <img class name="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
+                <img className="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
                 </img>
                 <p className="smallname"> some</p>
                 <h4 className="bigname"><a href="#" alt="">soem wer</a></h4>

@@ -1,5 +1,6 @@
 import "./first_pop.css"
-
+import React from "react";
+import PropTypes from 'prop-types'
 const Popup = (props) =>{
 
      if(!props.open) return null
@@ -22,5 +23,10 @@ const Popup = (props) =>{
 
     
 }
+Popup.propTypes = {
+    open: PropTypes.bool.isRequired,
+    onclose: PropTypes.func.isRequired
+  };
+  
 
 export default Popup;
