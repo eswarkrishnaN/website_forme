@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+.Third {
+  min-height: 100%;
+  background-color: azure;
+  align-items: center;
+  margin-left: 18rem;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.Third .heading {
+  align-items: center;
+  margin-left: 30px;
+}
+.Third .heading p {
+  margin-top: 20px;
+  padding-top: 50px;
+  text-align: left;
+  font-size: auto;
+  color: rgb(69, 62, 97);
+}
+.Third .heading h1 {
+  margin-top: 10px;
+  text-align: left;
+  color: rgb(69, 62, 97);
+}
+.Third .container_main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.Third .container_main .container {
+  box-shadow: 0 5px 10px rgb(197, 194, 191);
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  padding: 20px 30px;
+
+  box-sizing: border-box;
+  transition: transform 0.2s ease-in-out;
+}
+.Third .container_main .container .year {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(247, 204, 123);
+  font-family: "Carlito", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  text-align: left;
+}
+.Third .container_main .container .year span {
+  margin-left: 230px;
+  color: rgb(69, 62, 97);
+}
+.Third .container_main .container .details h3 {
+  align-items: left;
+  text-align: left;
+  color: rgb(69, 62, 97);
+}
+.Third .container_main .container .details .explation {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  word-spacing: 3px;
+  color: rgb(69, 62, 97);
+}
+.Third .container_main .container:hover {
+  transform: translate(3px, 3px);
+}
+@media only screen and (min-device-width: 374px) and (max-device-width: 400px) {
+  .Third  {
+    height: 250vh;
+    background-color: azure;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .Third .heading p {
+    text-align: left;
+    font-size: 15px;
+  }
+  .Third .heading   h1 {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(69, 62, 97);
+  }
+  .Third .container_main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin-top: 0px;
+  }
+  .Third .container_main  .container .year {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(237, 186, 92);
+    
+  }
+  .Third .container_main .container .year span {
+  
+    color: rgb(69, 62, 97);
+  }
+  .Third .container_main .container .details h3 {
+    align-items: left;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(69, 62, 97);
+  }
+  .Third .container_main .details .explation {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    word-spacing: 3px;
+    color: rgb(69, 62, 97);
+  }
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 374px) {
+  .Third  {
+
+    background-color: azure;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .Third .heading p {
+    text-align: left;
+    font-size: 15px;
+  }
+  .Third .heading   h1 {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(69, 62, 97);
+  }
+  .Third .container_main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin-top: 0px;
+  }
+  .Third .container_main .container .year {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(237, 186, 92);
+    
+  }
+  .Third .container_main .container .year span {
+    margin-left: 5px;
+    color: rgb(69, 62, 97);
+  }
+  .Third .container_main  .container .details h3 {
+    align-items: left;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(69, 62, 97);
+  }
+  .Third .container_main .details .explation {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    word-spacing: 3px;
+    color: rgb(69, 62, 97);
+  }
+}
+
+@media only screen and (min-device-width: 374px) and (max-device-width: 518px) {
+  .Third  {
+    height: 180vh;
+    background-color: azure;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .Third .heading p {
+    text-align: left;
+    font-size: 15px;
+  }
+  .Third .heading   h1 {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(69, 62, 97);
+  }
+  .Third .container_main {
+    display: grid;
+    margin-left: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin-top: 0px;
+  }
+  .Third .container_main  .container .year {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(237, 186, 92);
+    
+  }
+  .Third .container_main .container .year span {
+  
+    color: rgb(69, 62, 97);
+  }
+  .Third .container_main .container .details h3 {
+    align-items: left;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(69, 62, 97);
+  }
+  .Third .container_main .details .explation {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    word-spacing: 3px;
+    color: rgb(69, 62, 97);
+  }
+}
+
+/*# sourceMappingURL=Third.css.map */
+@media only screen and (min-device-width: 1563px) and (max-device-width: 2000px) {
+    .Third  {
+      
+      background-color: azure;
+      /* overflow: hidden ; */
+    }
+    
+  }
+
+  @media only screen and (min-device-width: 300px) and (max-device-width: 1420px) 
+  
+  {
+    .Third  {
+      margin-left: 0rem;
+      overflow: hidden;
+      
+    }
+  }
+  @media only screen and (min-device-width: 300px) and (max-device-width: 1420px) 
+  
+  {
+    .Third  {
+      margin-left: 0rem;
+      overflow: hidden;
+      
+    }
+  }
+
+  @media only screen and (min-device-width: 1200px) and (max-device-width: 1700px) 
+  
+  {
+    .Third  {
+      margin-left: 15rem;
+      overflow: hidden;
+      
+    }
+  }
+
+
+  
+  @media only screen and (min-device-width: 518px) and (max-device-width: 1501px) 
+  
+  {
+    .Third  {
+      height: 135vh;
+      visibility: collapse;
+      overflow: hidden;
+      
+    }
+  }
+/*# sourceMappingURL=Third.css.map */

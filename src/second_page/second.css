@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
 .second {
-  height: 80vh;
+  height: 100%;
   display: flex;
   flex-direction: row;
   background-color: rgb(255, 255, 255);
@@ -104,14 +104,15 @@
 }
 .second .top_right .age {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 10px;
 }
 .second .bottom {
-  display: flex;
-  flex-direction: row;
-  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 2rem;
+  margin-top: 40px;
 }
 .second .bottom .first_box {
   border: 10px solid 0;

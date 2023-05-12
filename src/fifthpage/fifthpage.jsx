@@ -2,9 +2,24 @@ import "./fifthpage.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import React from "react";
-
+import { useState ,useEffect } from "react";
+import error from "../error.png"
 
 const  Fifth = () =>{
+
+  const [data, setdata] = useState([])
+
+  useEffect(() =>{
+
+    const getdata = async ()=> {
+      const response = await fetch('http://192.168.1.10:5000/from/scrool');
+      const responseData = await response.json();
+      setdata(responseData)
+
+    };
+    getdata();
+  },[])
+
 
     const responsive = {
         superLargeDesktop: {
@@ -34,36 +49,13 @@ const  Fifth = () =>{
                 <h1>I Learned</h1>
             </div>
             <Carousel className="scrool" responsive={responsive}>
-            <div className="wrapper">
-                <img className="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
+           {data.length>0 ?data.map((value,index)=>(<div key={index} className="wrapper">
+                <img className="image" src={value.img} alt="some">
                 </img>
-                <p className="smallname"> some</p>
-                <h4 className="bigname"><a href="#" alt="">soem wer</a></h4>
-            </div>
-            <div className="wrapper">
-                <img className="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
-                </img>
-                <p className="smallname"> some</p>
-                <h4 className="bigname"><a href="#" alt="">soem wer</a></h4>
-            </div>
-            <div className="wrapper">
-                <img className="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
-                </img>
-                <p className="smallname"> some</p>
-                <h4 className="bigname"><a href="#" alt="">soem wer</a></h4>
-            </div>
-            <div className="wrapper">
-                <img className="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
-                </img>
-                <p className="smallname"> some</p>
-                <h4 className="bigname"><a href="#" alt="">soem wer</a></h4>
-            </div>
-            <div className="wrapper">
-                <img className="image" src="https://media.healthyfood.com/wp-content/uploads/2016/10/Alana-Scott-Does-portion-size-matter-on-low-FODMAP-diet-26.10.15-600x600.jpg"alt="some">
-                </img>
-                <p className="smallname"> some</p>
-                <h4 className="bigname"><a href="#" alt="">soem wer</a></h4>
-            </div>
+                <p className="smallname">{value.small}</p>
+                <h4 className="bigname"><a href={value.link} alt="">{value.big}</a></h4>
+            </div>)): <img src={error} alt="server down"></img>}
+            
             </Carousel>
             <button className="button1">Click to view me </button>
             

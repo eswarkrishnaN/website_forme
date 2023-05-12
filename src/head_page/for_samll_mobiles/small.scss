@@ -1,0 +1,134 @@
+$primarycolor:#231848;
+.head_div{
+    height: 70vh;
+    display: flex;
+    margin-right: 10px;
+    background-color:  rgb(224, 248, 248);
+    box-sizing: border-box;
+   
+    .sec{
+        margin-top: 50px;
+        margin-left: 50px;
+    .image{
+        img{
+            height: 300px;
+            width: 300px;
+        }
+    }
+    .postion{
+        .under{
+            margin-top: 20px;
+            justify-content: center;
+            .main_name{
+                .hi{
+                    color: $primarycolor;
+                    font-size: 40px;
+                  span{color: rgb(140, 159, 252); }
+
+                }
+            }
+        }
+        .wrapper{
+            
+            h1{
+                font-weight: bold;
+                 font-size: 30px;
+                 color: $primarycolor;
+
+                 &:hover{
+                    color: cornflowerblue;
+                 }
+                
+            }  
+        }
+        .name_india{
+            font-size: 20px;
+         color: $primarycolor; 
+         padding-bottom: 10px;
+         h1{
+            &:hover{
+                color: cornflowerblue;
+            }
+         }    
+          }
+          .pargaaph{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            p{
+                color: #808083;
+                line-height: 20px;
+                text-align: center;
+                font-weight: normal;
+                font-family: 'Barlow', sans-serif;
+                font-family: 'Lato', sans-serif;
+            }
+          }
+          .btn2{
+            margin-top: 20px;
+            padding: 10px 30px;
+            background-color: #231848;
+            color: aliceblue;
+            margin-left: 10px;
+            border-radius: 10px;
+            font-weight: bolder;
+            outline: none;
+            border: solid #231848 2px;
+            cursor: pointer;
+            &:hover{
+                background: transparent;
+                border-color: #231848;
+                color: black;
+            }
+            &:focus{
+                outline: none;
+            }
+            &:active{
+                outline: none;
+            }
+                
+          }
+
+          .btn{
+            margin-top: 20px;
+            padding: 10px 30px;
+            background: transparent;
+            border-color: #231848;
+            font-weight: bolder;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover{
+                background-color: #231848;
+                color: aliceblue;
+            }
+           
+    }
+    .contat{
+        display: flex;
+        flex-direction: column;
+         .Vertical_line{
+             margin-top: 120px;
+             border-left: 6px rgb(245, 115, 10) solid;
+             left: 150px;
+             height: 180px;
+             
+             p{
+                 padding: 10px;
+                 font-family: 'Barlow', sans-serif;
+                 font-family: 'Lato', sans-serif;
+                 color: #19191b;
+                 font-weight: bold;
+                 font-size: 18px;
+                 transition: color 0.2s ease;
+                 &:hover{
+                     color:rgb(245, 115, 10) ;
+                 }
+             }
+         }
+        }
+}
+
+}
+}

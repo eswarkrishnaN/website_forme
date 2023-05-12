@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 .first_section {
-  height: 100vh;
+  height: 100%;
   display: flex;
   background-color: rgb(224, 248, 248);
   margin-left: 18rem;
@@ -112,4 +112,20 @@
 .first_section .postion .right img {
   height: auto;
   width: 381px;
+}
+@media screen and (min-device-width: 682px) and (max-device-width: 1108px) {
+  .first_section .first_section {
+    margin-left: 0rem;
+  }
+  .first_section .first_section .postion {
+    line-height: 20px;
+  }
+}
+@media screen and (min-device-width: 1690px) and (max-device-width: 1108px) {
+  .first_section .first_section {
+    margin-left: 0rem;
+  }
+  .first_section .first_section .postion {
+    line-height: 20px;
+  }
 }/*# sourceMappingURL=head.css.map */

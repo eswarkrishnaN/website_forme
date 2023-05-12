@@ -3,7 +3,7 @@ $primary:rgb(69, 62, 97);
 $text: rgb(182, 171, 226);
 
 .main{
-    height: 100vh;
+    height: 100%;
     background-color: white;
     margin-left: 18rem;
     align-items: center;
@@ -105,4 +105,18 @@ $text: rgb(182, 171, 226);
        
     }
 
+}
+@media (max-width: 1840px) {
+
+    .main{
+        height: 50vh;
+    }
+    
+}
+@media screen and (max-width: 1700px) {
+
+    .main{   
+       margin-left: 0px;
+   }
+   
 }

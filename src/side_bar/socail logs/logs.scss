@@ -7,10 +7,10 @@
         margin-top: 100px;
 
     li{
-        padding: 20px;
+        padding: 15px;
         text-align: center;
         list-style: none;
-        font-size: 20px;
+        font-size: 15px;
         
       a{
         color: black;
@@ -23,5 +23,26 @@
 p{
     text-align: center;
    
+}
+@media (max-width: 1690px) {
+
+    .social_logs{
+        .social-icons-list{
+            
+    
+        li{
+            padding: 100px;
+
+            font-size: 15px;
+            
+          }
+        }
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+       
+    }
+    
 }
 }

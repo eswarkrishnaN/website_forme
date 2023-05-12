@@ -6,7 +6,7 @@ $primary:rgb(69, 62, 97);
 $text: rgb(182, 171, 226);
 
 .main_page{
-    height: 100vh;
+    height: 100%;
     background-color: rgb(255, 255, 255);
     margin-left: 18rem;
     align-items: center;
@@ -36,6 +36,7 @@ $text: rgb(182, 171, 226);
         align-items: center;
         margin-top: 10px;
         line-height: 20px;  
+        overflow: hidden;
        
 
         
@@ -108,4 +109,12 @@ $text: rgb(182, 171, 226);
        
     }
 
+}
+@media (max-width: 1840px) {
+
+    .main_page{
+        height: 60vh;
+        
+    }
+    
 }

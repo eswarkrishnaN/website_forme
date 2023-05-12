@@ -1,16 +1,23 @@
-import "./headmain.css";
-import image from "./image.png"
-import React from "react";
-// import MyComponent from "./screenchanger";
-const Main = () =>{
-    
-        
+import "./small.css";
+import image from "../image.png";
+import React  from "react";
 
+
+
+const Small =() =>{
+
+
+    
     return(
-        <section className="first_section">
-            {/* <MyComponent></MyComponent> */}
-            <div className="postion">
-            <div className="left">
+        <div className="head_div">
+
+          <section className="sec">
+          <div className="image">
+                <img src={image} alt="wrong_image"></img>
+                 </div>
+
+           <div className="postion">
+            <div className="under">
             <div className="main_name">
             <h1 className="hi">Hi, I m <span>Eswar Krishna!</span>
             </h1>
@@ -36,13 +43,13 @@ const Main = () =>{
                 </div>
                 </div>           
             </div>
-            <div className="right"> 
-           <img src={image} alt="xc" ></img>
-           </div>
-           <div></div>
-           </div>
-        </section>
-    )
-}
+            </div>
 
-export default Main;
+
+          </section>
+        </div>
+    )
+
+};
+
+export default Small;

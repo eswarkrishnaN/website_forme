@@ -1,10 +1,35 @@
 import "./contact.css";
 import React from "react";
+import { useState } from "react";
 
+/* eslint-disable */ 
 
 const Contact = () =>{
  
+    const [text,settext] =useState('')
+    const [email,setemail] = useState('')
+    const [textarea,settextare] = useState('')
+    console.log(text)
+    console.log(email)
+    console.log(textarea)
 
+
+    const submite_value =  async(event) =>{
+      event.preventDefault();
+        const  data = [text,email,textarea]
+        const response = await fetch("http://192.168.1.10:5000/from/email",{
+
+            method: 'Post',
+            headers :{
+              'Content-type' :'application/json'
+            },
+            body:JSON.stringify(data)
+        });
+
+        settext('')
+        setemail('')
+        settextare('')
+    }
 
     return(<div className="main_conatct">
         <div className="container ">
@@ -24,11 +49,11 @@ const Contact = () =>{
             </div>
             </div>
              <div className="second">
-                <from  className="from">
-                <input type="text" placeholder="Enter your name"></input>
-                <input type="email" placeholder="Enter your email"></input>
-                <textarea  className="textarea" name="message" rows="5" placeholder="Enter your message"></textarea>
-                <button className="submite"> Click to send mail</button>
+                <from   className="from"  onSubmit={submite_value}>
+                <input value ={text} type="text" placeholder="Enter your name"  onChange={(event) => settext(event.target.value)} required></input>
+                <input value={email} type="email" placeholder="Enter your email" onChange={(event)=>setemail(event.target.value)} required></input>
+                <textarea  value={textarea} className="textarea" name="message" rows="5" placeholder="Enter your message" onChange={(event) => settextare(event.target.value)} required></textarea>
+                <button className="submite" type="submit"> Click to send mail</button>
                 </from>
             </div> 
 

@@ -1,4 +1,4 @@
-import './App.css';
+ import './App.css';
 import Navbar  from './side_bar/side-bar';
 import Main  from './head_page/head';
 import Second from './second_page/second';
@@ -8,6 +8,7 @@ import Fifth from './fifthpage/fifthpage';
 import Sixthpage from './sixthpage/sixthpage';
 import Seventhpage from "./seventhpage/seventh"
 import Contact from './contactpage/contact';
+
 
 import React from 'react';
 function App() {
@@ -22,8 +23,8 @@ function App() {
       <Sixthpage></Sixthpage>
       <Seventhpage></Seventhpage>
       <Contact></Contact>
-
     </div>
+    
   );
 }
 

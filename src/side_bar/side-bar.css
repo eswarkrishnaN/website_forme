@@ -48,4 +48,15 @@
 }
 .navbar .logo .pages li a:hover {
   color: rgb(163, 163, 255);
+}
+
+@media (max-width: 1690px) {
+  .navbar {
+    width: 15rem;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar {
+    display: none;
+  }
 }/*# sourceMappingURL=side-bar.css.map */

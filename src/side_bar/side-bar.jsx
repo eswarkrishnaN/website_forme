@@ -1,9 +1,17 @@
+import Second from "../second_page/second";
 import "./side-bar.css";
 import Logs from "./socail logs/logs"
 import React from "react";
+import Main from "../head_page/head";
+import Third from "../Third_page/Third";
+import Forth from "../forthpage/popup_pages/forthpage/forthpage";
+import Fifth from "../fifthpage/fifthpage";
 
 
- const Navbar  = () =>{
+import {BrowserRouter as Router, Route ,Link ,Routes} from "react-router-dom"
+
+
+const Navbar  = () =>{
 
     return(
         <div className="navbar">
@@ -14,35 +22,52 @@ import React from "react";
            
             <ul className="pages">
                 <li >
-                    <a href="some.com" className="Home">
-                        Home
-                    </a>
+                       <Link to="/">Home</Link> 
+                
                 </li>
                 <li>
-                <a href="some.com" className="About">
-                    About
-                    </a>
+                      <Link to="/about">About</Link> 
+                    
                 </li>
                 <li>
                 <a href="some.com" className="Services">
-                    Services
+                         <Link to="/services">Services</Link> 
                     </a>
                 </li>
                 <li>
                 <a href="some.com" className="Protofoli">
-                    Protofoli
+                <Link to="/protofolio">prtofolio</Link> 
                     </a>    
                 </li>
                 <li>
                 <a href="some.com" className="contact">
-                    contact
+                    <Link to="/Contact">Contact</Link> 
                     </a> 
                 </li>
             </ul>
             </div>
             <Logs></Logs>
+            <Routes>
+                <Route exact path="/" element={<Main />} />
+                <Route path="/about" element={<Second />} />
+                <Route path="/protofolio" element={<Third />} />
+                <Route path="/Seriveces" element={<Forth />} />
+                <Route path="/Contact" element={<Fifth />} />
+             
+
+
+            </Routes>
+           
         </div>
     )
 }
 
-export default Navbar;
+const App = () => {
+  return (
+    <Router>
+      <Navbar />
+    </Router>
+  );
+};
+
+export default App;

@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.first_section {
+  height: 100vh;
+  display: flex;
+  background-color: rgb(224, 248, 248);
+  margin-left: 18rem;
+  box-sizing: border-box;
+}
+.first_section .postion {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-around;
+  line-height: 1px;
+}
+.first_section .postion .left {
+  margin-top: 20px;
+  justify-content: center;
+}
+.first_section .postion .left .main_name .hi {
+  font-size: 50px;
+}
+.first_section .postion .left .main_name .hi span {
+  color: rgb(140, 159, 252);
+}
+.first_section .postion .left .wrapper {
+  box-sizing: content-box;
+  display: flex;
+}
+.first_section .postion .left .wrapper h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #231848;
+}
+.first_section .postion .left .wrapper h1:hover {
+  color: cornflowerblue;
+}
+.first_section .postion .left .name_india {
+  font-size: 30px;
+  color: #231848;
+  padding-bottom: 10px;
+}
+.first_section .postion .left .name_india h1:hover {
+  color: cornflowerblue;
+}
+.first_section .postion .left .pargaaph p {
+  color: #808083;
+  line-height: 10px;
+  font-weight: normal;
+  font-family: "Barlow", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+.first_section .postion .left .btn2 {
+  margin-top: 20px;
+  padding: 20px 50px;
+  background-color: #231848;
+  color: aliceblue;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+  outline: none;
+  border: solid #231848 2px;
+  cursor: pointer;
+}
+.first_section .postion .left .btn2:hover {
+  background: transparent;
+  border-color: #231848;
+  color: black;
+}
+.first_section .postion .left .btn2:focus {
+  outline: none;
+}
+.first_section .postion .left .btn2:active {
+  outline: none;
+}
+.first_section .postion .left .btn {
+  margin-top: 20px;
+  padding: 20px 50px;
+  background: transparent;
+  border-color: #231848;
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.first_section .postion .left .btn:hover {
+  background-color: #231848;
+  color: aliceblue;
+}
+.first_section .postion .left .contat {
+  display: flex;
+  flex-direction: column;
+}
+.first_section .postion .left .contat .Vertical_line {
+  margin-top: 120px;
+  border-left: 6px rgb(245, 115, 10) solid;
+  left: 150px;
+  height: 150px;
+}
+.first_section .postion .left .contat .Vertical_line p {
+  padding: 10px;
+  font-family: "Barlow", sans-serif;
+  font-family: "Lato", sans-serif;
+  color: #19191b;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.2s ease;
+}
+.first_section .postion .left .contat .Vertical_line p:hover {
+  color: rgb(245, 115, 10);
+}
+.first_section .postion .right img {
+  height: auto;
+  width: 381px;
+}
+@media screen and (min-device-width: 682px) and (max-device-width: 1179px)and (orientation :portrait)
+
+{
+  .first_section  {
+    margin-left: 0rem;
+    height: 70vh;
+  }
+  .first_section  .postion {
+    line-height: 10px;
+  }
+  .first_section .postion .left .main_name h1 {
+    line-height: 50px;
+  }
+  .first_section .postion .left .wrapper h1 {
+    line-height: 50px;
+  }
+  .first_section .postion .left .pargaaph p {
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=head.css.map */
+@media screen and (min-device-width: 300px) and (max-device-width: 921px) and (orientation :portrait)
+{
+  .first_section  {
+    margin-left: 0rem;
+    height: 70vh;
+  }
+  .first_section  .postion {
+    line-height: 10px;
+  }
+  .first_section .postion .left .main_name h1 {
+    line-height: 50px;
+  }
+  .first_section .postion .left .wrapper h1 {
+    line-height: 50px;
+  }
+  .first_section .postion .left .pargaaph p {
+    line-height: 20px;
+  }
+}
+@media screen and (min-device-width: 1170px) and (max-device-width: 1690px) and (orientation :portrait)
+{
+  .first_section  {
+    margin-left: 15rem;
+    height: 50vh;
+  }
+  
+}
+
+@media screen and (min-device-width: 700px) and (max-device-width: 1080px){
+
+
+
+.first_section .postion .left {
+  margin-top: 5px;
+  justify-content: center;
+}
+.first_section .postion .left .main_name .hi {
+  font-size: 30px;
+}
+
+
+.first_section .postion .left .wrapper h1 {
+  font-size: 30px;
+}
+
+.first_section .postion .left .name_india {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.first_section .postion .left .pargaaph p {
+  color: #808083;
+  line-height: 17px;
+  font-weight: normal;
+  word-spacing: 3px;
+  font-family: "Barlow", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+.first_section .postion .left .btn2 {
+  margin-top: 10px;
+  padding: 10px 25px;
+}
+
+
+.first_section .postion .left .btn {
+  margin-top: 10px;
+  padding: 10px 25px;
+
+}
+
+.first_section .postion .left .contat .Vertical_line {
+  margin-top: 30px;
+  border-left: 5px rgb(245, 115, 10) solid;
+ 
+}
+.first_section .postion .left .contat .Vertical_line p {
+  padding: 10px;
+  font-family: "Barlow", sans-serif;
+  font-family: "Lato", sans-serif;
+  color: #19191b;
+  font-weight: bold;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+.first_section .postion .left .contat .Vertical_line p:hover {
+  color: rgb(245, 115, 10);
+}
+.first_section .postion .right img {
+  height: auto;
+  width: 280px;
+}
+}
+@media screen and (min-device-width: 1080px) and (max-device-width: 1200px){
+  .first_section {
+    margin-left: 0rem;
+   
+  }
+ 
+  .first_section .postion .left .wrapper h1 {
+  
+    font-size: 50px;
+   
+  }
+ 
+  .first_section .postion .left .name_india {
+    font-size: 40px;
+    margin-top: 20px;
+    
+  }
+  
+  .first_section .postion .left .pargaaph p {
+  
+    margin-top: 40px;
+   
+  }
+  .first_section .postion .left .btn2 {
+    padding: 30px 60px;
+    border-radius: 20px;
+  }
+  .first_section .postion .left .btn2:hover {
+    background: transparent;
+    border-color: #231848;
+    color: black;
+  }
+ 
+  .first_section .postion .left .btn {
+    margin-top:70px;
+    padding: 30px 60px;
+    border-radius: 20px;
+    
+  }
+
+  
+  .first_section .postion .left .contat .Vertical_line {
+    margin-top: 160px;
+    border-left: 6px rgb(245, 115, 10) solid;
+    left: 150px;
+    height: 150px;
+  }
+
+
+  .first_section .postion .left .contat .Vertical_line p {
+    font-size: 25px;
+  
+  }
+ 
+  .first_section .postion .right img {
+    height: auto;
+    width: 400px;
+  }
+
+
+  }
+
+  @media screen and (min-device-width: 1200px) and (max-device-width: 3000px){
+    .first_section {
+      margin-left: 15rem;
+     
+    }
+   
+    .first_section .postion .left .wrapper h1 {
+    
+      font-size: 50px;
+     
+    }
+   
+    .first_section .postion .left .name_india {
+      font-size: 40px;
+      margin-top: 20px;
+      
+    }
+    
+    .first_section .postion .left .pargaaph p {
+    
+      margin-top: 40px;
+     
+    }
+    .first_section .postion .left .btn2 {
+      padding: 30px 60px;
+      border-radius: 20px;
+    }
+    .first_section .postion .left .btn2:hover {
+      background: transparent;
+      border-color: #231848;
+      color: black;
+    }
+   
+    .first_section .postion .left .btn {
+      margin-top:70px;
+      padding: 30px 60px;
+      border-radius: 20px;
+      
+    }
+  
+    
+    .first_section .postion .left .contat .Vertical_line {
+      margin-top: 90px;
+      border-left: 6px rgb(245, 115, 10) solid;
+      left: 150px;
+      height: 150px;
+    }
+  
+  
+    .first_section .postion .left .contat .Vertical_line p {
+      font-size: 25px;
+    
+    }
+   
+    .first_section .postion .right img {
+      height: auto;
+      width: 400px;
+    }
+  
+  
+    }
